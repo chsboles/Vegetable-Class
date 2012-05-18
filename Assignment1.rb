@@ -7,7 +7,7 @@ class Vegetable
 	def initialize(dressing)
 		if dressing == "Caesar"
 			true
-		elseif dressing=="Ranch" && color=="Green"
+		elsif dressing=="Ranch" && color=="Green"
 			true
 		else
 			false
